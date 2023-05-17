@@ -29,8 +29,8 @@ $(function() {
   });
 });
 
+// Updates the current date and time
 $(function () {
-  // Updates the current date and time
   function updateTime() {
     let now = dayjs();
     $('#currentDay').text(now.format('dddd, MMMM D, YYYY'));
